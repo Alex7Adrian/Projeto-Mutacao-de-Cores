@@ -6,13 +6,13 @@ Este projeto é uma aplicação interativa onde seis formigas mudam de cor ao cl
 
 ### **Funcionalidades**:
 
-- **Cross-Over:
+- **Cross-Over:**
 
     - **One-Point** → É feito a troca de um dos valores das duas cores do valor RGB.
     - **Uniforme** → Sorteado um valor aleatório para ser trocado de duas cores de seus valores RGB.
     - **Aritmética** → É tirada a média RGB de duas cores.
 
-- **Mutação:
+- **Mutação:**
 
     - **Aleatória 🎲** → Um dos valores RGB muda completamente.
     - **Pequena 🔄** → Um dos valores RGB aumenta ou diminui levemente (+10 ou -10).
