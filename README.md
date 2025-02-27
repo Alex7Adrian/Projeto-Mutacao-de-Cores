@@ -3,7 +3,7 @@
 📌 Sobre o Projeto
 Este projeto é uma aplicação interativa onde seis formigas mudam de cor ao clicar em um botão,e é gerado um grafico onde a cor mais escura tem uma porcentagem maior que as demais,e feito automaticamente a "seleção natural" pela roleta e essa 6 cores passam por um processo de cross-over e mutação gerando novas cores prontas para passar novamente pelo processo:
 
-#Funcionalidades :
+## Funcionalidades:
 Cross-Over
 
 One-Point → É feito a troca de um dos valores das duas cores do valor rgb 
