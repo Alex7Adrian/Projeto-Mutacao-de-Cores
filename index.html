@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <title>Gerações</title>
+</head>
+<body>
+    <h1>População de Formigas</h1>
+    <button id="gerar">Gerar População</button>
+    <div id="container">
+        <div class="formiga">
+            <img src="img/purple.png" alt="Formiga 1">
+        </div>
+        <div class="formiga">
+            <img src="img/purple.png" alt="Formiga 2">
+        </div>
+        <div class="formiga">
+            <img src="img/purple.png" alt="Formiga 3">
+        </div>
+        <div class="formiga">
+            <img src="img/purple.png" alt="Formiga 4">
+        </div>
+        <div class="formiga">
+            <img src="img/purple.png" alt="Formiga 5">
+        </div>
+        <div class="formiga">
+            <img src="img/purple.png" alt="Formiga 6">
+        </div>
+    </div>
+    <br>
+    <h1>Seleção Por Roleta</h1>
+    <canvas id="graficoRoleta"></canvas>
+    <h2 id="formigaMaisEscura"></h2> 
+    <button id="girar">Girar Roleta</button>
+    <br>
+
+    <h1>Nova Geração</h1>
+<div id="container">
+    <div class="formiga">
+        <div id="escolhida-1" class="formiga-escolhida"></div>
+    </div>
+    <div class="formiga">
+        <div id="escolhida-2" class="formiga-escolhida"></div>
+    </div>
+    <div class="formiga">
+        <div id="escolhida-3" class="formiga-escolhida"></div>
+    </div>
+    <div class="formiga">
+        <div id="escolhida-4" class="formiga-escolhida"></div>
+    </div>
+    <div class="formiga">
+        <div id="escolhida-5" class="formiga-escolhida"></div>
+    </div>
+    <div class="formiga">
+        <div id="escolhida-6" class="formiga-escolhida"></div>
+    </div>
+</div>
+ 
+<br>
+<h1>Cross-Over</h1>
+<button id="aplicarCrossover">Aplicar Cross-Over</button>
+
+<div id="resultadoCrossover">
+    <div id="onePoint"></div>
+
+    
+    <div id="uniform"></div>
+
+    
+    <div id="aritmetico"></div>
+</div>
+<br>
+<h1>Mutação</h1>
+    <select id="tipoMutacao">
+        <option value="aleatoria">Aleatória</option>
+        <option value="pequena">Pequena</option>
+        <option value="dirigida">Dirigida</option>
+    </select>
+    <button id="aplicarMutacao">Aplicar Mutação</button>
+    <div id="resultadoMutacao"></div>
+
+
+    <script src="script.js"></script>
+    <script src="roleta.js"></script>
+    <script src="crossover.js"></script>
+    <script src="mutacao.js"></script>
+</body>
+</html>

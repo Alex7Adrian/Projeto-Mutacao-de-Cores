@@ -1,0 +1,93 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: black;
+    color: azure;
+
+}
+button{
+    background-color: black;
+    color: azure;
+    border-radius: 6px;
+    border-color: aliceblue;
+    width: 85px;  
+    height: 40px;
+}
+h2{
+   
+    font-size: 15px;
+    margin-bottom: 10px;
+    color: azure;
+
+}
+
+#container {
+    display: flex;
+    justify-content:center;
+    gap: 10px;
+    margin-top: 20px;
+}
+
+.formiga {
+    width: 60px;  
+    height: 60px;
+    overflow: hidden;
+}
+
+.formiga img {
+    width: 100%; 
+    height: 100%; 
+    object-fit: cover;  
+}
+
+canvas {
+    
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.formiga-escolhida {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%; 
+    border: 2px solid rgb(255, 255, 255);
+    display: inline-block;
+    margin: 5px;
+}
+
+.resultado-crossover {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.cor {
+    display: inline-block;
+    width: 110px;
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+}
+.resultado-mutacao {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 10px 0;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+
+
+
