@@ -65,7 +65,8 @@ canvas {
     gap: 10px;
     margin: 10px 0;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 10px;
+   
 }
 
 .cor {
@@ -78,6 +79,7 @@ canvas {
     font-weight: bold;
     border-radius: 5px;
     box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2);
+    border: 2px solid rgb(255, 255, 255);
 }
 .resultado-mutacao {
     display: flex;
@@ -87,6 +89,7 @@ canvas {
     margin: 10px 0;
     font-weight: bold;
     font-size: 12px;
+    
 }
 
 
